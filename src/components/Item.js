@@ -42,10 +42,13 @@ export default Item;
 
 const Container = styled.div`
     display:flex;
-    height:550px;
+    height:100%;
     width:350px;
     flex-direction:column;
     margin:5px;
+    @media screen and (max-width: 425px) {
+   margin-top:550px;
+  }
 `
 const ImgCon = styled.div`
   height:470px;

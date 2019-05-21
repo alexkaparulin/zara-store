@@ -63,6 +63,9 @@ export default DataMap;
 
 const Container = styled.div`
   display:flex;
+  @media screen and (max-width: 425px) {
+    flex-direction:column;
+  }
 `
 const ItemDiv=styled.div`
 `
@@ -74,6 +77,9 @@ const SearchContainer = styled.div`
   z-index:1;
   cursor: pointer;
   margin-bottom:50px;
+  @media screen and (max-width: 425px) {
+   display:none;
+  }
 `
 const Label = styled.label`
   font-size:20px;

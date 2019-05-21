@@ -54,6 +54,10 @@ const Picture = styled.img`
     width:100%;
     animation: ${fadein} 40s infinite linear;
     position:absolute;
+    @media screen and (max-width: 425px) {
+    height:140%;
+    width:106%;
+  }
 `
 const Picture2 = styled.img`
     opacity:0;

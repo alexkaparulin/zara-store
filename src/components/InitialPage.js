@@ -128,7 +128,8 @@ const Picture = styled.img`
     background-repeat:no-repeat;
     background:zara1;
     @media screen and (max-width: 425px) {
-    height:80%;
+    height:140%;
+    width:106%;
   }
 `
 const SubH1Container = styled.div`
